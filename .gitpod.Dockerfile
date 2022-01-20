@@ -12,6 +12,6 @@ RUN mkdir -p ~/.projector/configs  # Prevents projector install from asking for 
 # RUN projector ide install 'IntelliJ IDEA Ultimate 2020.3.2' --no-auto-run
 RUN printf "2\nY\n3\n" | projector install --no-auto-run
 
-RUN brew install fd
-RUN brew install fzf
-RUN brew install ripgrep
+# RUN brew install fd
+# RUN brew install fzf
+# RUN brew install ripgrep
